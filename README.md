@@ -68,6 +68,8 @@ TODO
 
 # 6. 具体问题探讨
 ## 6.1 冷启动问题
+* 在推荐系统中，如果面对新的Item，能否在不重新训练Embedding的前提下得到这个新Item的Embedding向量？大家有什么实践经验分享吗？
+用item的meta info 的embedding替代item；或者类似airbnb那样，用meta info找出来最相似的n个item求平均. side information!!
 
 # 7. 推荐系统项目实例
 
