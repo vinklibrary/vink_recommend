@@ -75,18 +75,28 @@ TODO
 
 # 8. 深度推荐系统
 
-# 9. 推荐系统论文阅读
+# 9. 推荐系统阅读列表
+1. [Embedding在深度推荐系统中的3大应用方向](https://zhuanlan.zhihu.com/p/67218758)
+2. [FFM及DeepFFM模型在推荐系统的探索](https://zhuanlan.zhihu.com/p/67795161) 
+
+
+# 10. Papers
 1. Training Deep AutoEnocders for Collaborative Filtering
-2.
-
-1. The Wisdom of The Few 豆瓣阿稳在介绍豆瓣猜的时候极力推荐过这篇论文，豆瓣猜也充分应用了这篇论文中提出的算法；2. Restricted Boltzmann Machines for Collaborative Filtering 目前Netflix使用的主要推荐算法之一；3. Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model 这个无需强调重要性，LFM几乎应用到了每一个商业推荐系统中；4. Collaborative Filtering with Temporal Dynamics 加入时间因素的SVD++模型，曾在Netflix Prize中大放溢彩的算法模型；5. Context-Aware Recommender Systems 基于上下文的推荐模型，现在不论是工业界还是学术界都非常火的一个topic；6. Toward the next generation of recommender systems 对下一代推荐系统的一个综述；7. Item-Based Collaborative Filtering Recommendation Algorithms 基于物品的协同过滤，Amazon等电商网站的主力模型算法之一；8. Information Seeking-Convergence of Search, Recommendations and Advertising 搜索、推荐和广告的大融合也是未来推荐系统的发展趋势之一；9. Ad Click Prediction: a View from the Trenches 可以对推荐结果做CTR预测排序；10. Performance of Recommender Algorithm on top-n Recommendation Task TopN预测的一个综合评测，TopN现在是推荐系统的主流话题，可以全部实现这篇文章中提到的算法大概对TopN有个体会；
-
+2. The Wisdom of The Few 豆瓣阿稳在介绍豆瓣猜的时候极力推荐过这篇论文，豆瓣猜也充分应用了这篇论文中提出的算法；
+2. Restricted Boltzmann Machines for Collaborative Filtering 目前Netflix使用的主要推荐算法之一；
+3. Factorization Meets the Neighborhood: a Multifaceted Collaborative Filtering Model 这个无需强调重要性，LFM几乎应用到了每一个商业推荐系统中；
+4. Collaborative Filtering with Temporal Dynamics 加入时间因素的SVD++模型，曾在Netflix Prize中大放溢彩的算法模型；
+5. Context-Aware Recommender Systems 基于上下文的推荐模型，现在不论是工业界还是学术界都非常火的一个topic；
+6. Toward the next generation of recommender systems 对下一代推荐系统的一个综述；
+7. Item-Based Collaborative Filtering Recommendation Algorithms 基于物品的协同过滤，Amazon等电商网站的主力模型算法之一；
+8. Information Seeking-Convergence of Search, Recommendations and Advertising 搜索、推荐和广告的大融合也是未来推荐系统的发展趋势之一；
+9. Ad Click Prediction: a View from the Trenches 可以对推荐结果做CTR预测排序；
+10. Performance of Recommender Algorithm on top-n Recommendation Task TopN预测的一个综合评测，TopN现在是推荐系统的主流话题，可以全部实现这篇文章中提到的算法大概对TopN有个体会；
 11. http://dsec.pku.edu.cn/~jinlong/publication/wjlthesis.pdf 北大一博士对Netflix Prize算法的研究做的毕业论文，这篇论文本身对业界影响不大，但是Netflix Prize中运用到的算法极大地推动了推荐系统的发展；通过这些论文可以对推荐系统有个总体上的全面认识，并且能够了解一些推荐系统的发展趋势。剩下的就是多实践了。Good luck！
 
 
 # 10. 图算法
-If embedding users and items into a heterogeneous graph, user-to-item behaviors could be treated as directed edges and item-to-item similarities could be encoded into the graph. Then recommendation task could be transformed as the graph link prediction problem. Such transition may bring a new view of recommendation system and further trigger novel algorithms to solve the bottleneck of behavior prediction problem.
-
+参考另一个[Repo](https://github.com/vinklibrary/Vink_GraphEmbedding)
 
 # References
 1. https://github.com/chocoluffy/deep-recommender-system
