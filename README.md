@@ -94,6 +94,8 @@ TODO
 10. Performance of Recommender Algorithm on top-n Recommendation Task TopN预测的一个综合评测，TopN现在是推荐系统的主流话题，可以全部实现这篇文章中提到的算法大概对TopN有个体会；
 11. http://dsec.pku.edu.cn/~jinlong/publication/wjlthesis.pdf 北大一博士对Netflix Prize算法的研究做的毕业论文，这篇论文本身对业界影响不大，但是Netflix Prize中运用到的算法极大地推动了推荐系统的发展；通过这些论文可以对推荐系统有个总体上的全面认识，并且能够了解一些推荐系统的发展趋势。剩下的就是多实践了。Good luck！
 
+12. Are We Really Making Much Progress? A Worrying Analysis of Recent Neural Recommendation Approaches
+> 摘要：对于那些致力于推荐系统算法方面的研究人员来说，深度学习技术已经成为他们的首先方法。但是，随着研究人员对深度学习的兴趣日益强烈，哪些方法能够代表当前最佳水平却变得难以辨别，如适用于 top-n 推荐任务的最佳方法。因此，研究者在本文中列举出了 top-n 推荐任务中提议算法的系统分析结果。具体来说，他们试验了 2018 年顶级科研会议上提出的 18 种算法，但遗憾的是，仅有 7 种算法可以通过研究人员的合理努力实现复现。然而，在这 7 种算法之中，却又有 6 种算法的效果通常弱于同类更简单的启发式方法，如基于最近邻或基于图的方法。剩下 1 种算法的效果虽然明显优于基线方法，但无法持续地优于调整好的非神经线性排序法（nonneural linear ranking method）。
 
 # 10. 图算法
 参考另一个[Repo](https://github.com/vinklibrary/Vink_GraphEmbedding)
