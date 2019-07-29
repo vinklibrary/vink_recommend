@@ -64,6 +64,9 @@ class similarity:
                 return_mat[i][j] = up / down
         return return_mat
 
+    def Jaccard_List(self, item_list1, item_list2):
+        
+
     # 计算夹角余弦距离
     def Cosine(self, mat):
         return_mat = np.zeros(shape=(len(mat), len(mat)), dtype=float)
