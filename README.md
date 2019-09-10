@@ -122,3 +122,8 @@ TODO
 1. https://github.com/chocoluffy/deep-recommender-system
 2. https://www.zhihu.com/question/57418889/answer/152951149
 3. 
+
+# 11. 游戏里的推荐系统
+## 特点
+1. 并非一锤子买卖
+2. item一定程度上是有限的。
